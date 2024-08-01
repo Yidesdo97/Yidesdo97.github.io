@@ -53,28 +53,29 @@ about_content: | # this will include new lines to allow paragraphs
   
   My thesis aims to predict and validate previously unknown knowledge for Alzheimer’s Disease using LBD methodologies. The study is motivated by the exponential growth of AD research findings and the complexity of AD at both molecular and clinical levels, which present significant challenges in identifying, extracting, and synthesizing pathological processes and clinical symptoms. LBD methodologies aim to reduce information overload and provide valuable insights into disease diagnosis, treatments, and mechanisms.
 
-  I am looking for <mark>full-time opportunities<\mark> and open to relocation.
-  Interested areas include but not limited to: <mark>Natural language processing, large language models, and NLP applications<\mark>.
+  I am looking for <mark>full-time opportunities</mark> and open to relocation.
+
+  Interested areas include but not limited to: <mark>Natural language processing, large language models, and NLP applications</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: BioNLP 2024 and Shared Tasks @ ACL 2024
+        link: tbd
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Intervention extraction in preclinical animal studies of Alzheimer’s Disease 
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
