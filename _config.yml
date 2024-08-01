@@ -1,42 +1,39 @@
 # Site
-repository: Yidesdo97/Yidesdo97.github.io
-# sproogen/resume-theme
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Yiyuan Pu (Gracie)
-title: PhD candidate (Graduating in Jan, 2025)
-email: yiyuanpu.unimelb@gmail.com
-# wechat: 15618068621
-# website: www.github.com/sproogen/resume-theme
+name: Brett Harris
+title: Senior Network System Administrator
+email: brett.h@email.co.uk
+website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-# github_username:  sproogen
+twitter_username: facespics
+github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+instagram_username: jameswgrant
+linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+youtube_username: globalmtb
 # googleplus_username: +jekyll
-orcid_username: 0000-0002-0814-8312
-# googlescholar_username: Yiyuan Pu
+# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,140 +46,71 @@ orcid_username: 0000-0002-0814-8312
 
 # About Section
 # about_title: About Me
-about_profile_image: images/IMG_8480.jpg
-# images/profile.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a PhD candidate at the [ARC Training Centre in Cognitive Computing for Medical Technologies](https://aimedtech.org.au/) at the University of Melbourne, where I am in the <mark>final six months</mark> of my doctoral studies. My thesis focuses on Literature-Based Discovery (LBD) for Alzheimer’s Disease (AD), supervised by [Prof Karin Verspoor](https://scholar.google.com/citations?user=dUxHnbcAAAAJ&hl=en), [Dr Daniel Beck](https://scholar.google.com/citations?user=NauI6dEAAAAJ&hl=en), and [Dr Michael Conway](https://scholar.google.com.au/citations?user=uiJso6MAAAAJ&hl=en). I am also in close collaboration with the University of Edinburgh at the [AD-SOLES project](https://www.ed.ac.uk/clinical-brain-sciences/research/camarades/research-portfolio/current-projects) with [Dr Kaitlyn Hair](https://scholar.google.com/citations?user=f3fWQWMAAAAJ&hl=en) and [Prof Malcolm Macleod](https://scholar.google.co.uk/citations?user=_cLoK0sAAAAJ&hl=en).
-  
-  My thesis aims to predict and validate previously unknown knowledge for Alzheimer’s Disease using LBD methodologies. The study is motivated by the exponential growth of AD research findings and the complexity of AD at both molecular and clinical levels, which present significant challenges in identifying, extracting, and synthesizing pathological processes and clinical symptoms. LBD methodologies aim to reduce information overload and provide valuable insights into disease diagnosis, treatments, and mechanisms.
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am looking for <mark>full-time opportunities<\mark> and open to relocation.
-  Interested areas include but not limited to: <mark>Natural language processing, large language models, and NLP applications<\mark>.
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Papers # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        # border: weak
-        title: BioNLP 2024 and Shared Tasks @ ACL 2024
-        link: tbd
+        title: Super awesome project
+        link: github.com/sproogen
         # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Intervention extraction in preclinical animal studies of Alzheimer’s Disease 
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-      - layout: top-middle
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Journal of Biomedical Informatics  
-        link: [Paper link](https://www.sciencedirect.com/science/article/pii/S1532046423001855)
-        # link_text: tbd
-        additional_links:
-          - title:  READ-BioMed/readbiomed-lbd
-          # (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: https://github.com/READ-BioMed/readbiomed-lbd
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Graph embedding-based link prediction for literature-based discovery in Alzheimer’s Disease 
-        description: | # this will include new lines to allow paragraphs
-          We explore the framing of literature-based discovery (LBD) as link prediction and graph embedding learning, with Alzheimer’s Disease (AD) as our focus disease context. The key link prediction setting of prediction window length is specifically examined in the context of a time-sliced evaluation methodology. We propose a four-stage approach to explore literature-based discovery for Alzheimer’s Disease, creating and analyzing a knowledge graph tailored to the AD context, and predicting and evaluating new knowledge based on time-sliced link prediction. Neural network graph-embedding link prediction methods show promise for the literature-based discovery context, although the prediction setting is extremely challenging, with graph densities of less than 1%. Varying prediction window length on the time-sliced evaluation methodology leads to hugely different results and interpretations of LBD studies. 
-      
-      - layout: top-middle
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Journal of Biomedical Semantics (preprint)
-        link: tbd
-        # link_text: tbd
-        # additional_links:
-        #   - title:  READ-BioMed/readbiomed-lbd
-        #   # (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: https://github.com/READ-BioMed/readbiomed-lbd
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Enriched knowledge representation in biological fields: A case study of Literature-based Discovery in Alzheimer’s Disease
-        description: | # this will include new lines to allow paragraphs
-          We argue that the standard entity-based knowledge graph has important limitations for biological knowledge representation. We demonstrate the negative impacts of relying solely on pairwise relationships as representation strategies by using Literature-Based Discovery (LBD) as a case study. However, pairwise relationships adopted in a standard knowledge graph are essential in knowledge representation for LBD. These limitations can be mitigated by integrating more semantically complex knowledge representation strategies, including capturing collective interactions and allowing for nested entities. The use of more sophisticated knowledge representation will benefit biological fields with more expressive knowledge graphs. A downstream task of knowledge graph, such as LBD, can be benefitted as well, allowing for generation of implicit knowledge discoveries and explanations for disease diagnosis, treatment, and mechanism that are more biologically meaningful.
-
-  # - title: Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: Education
-    layout: list
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
-        title: University of Melbourne
-        sub_title: Doctor of Philosophy
-        caption: 2021.06 - present 
+      - layout: left
+        title: The Boring Company
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
         quote: >
-          Field of study: Natural Language Processing
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of qualification
-      - layout: top-right
-        title: The University of British Columbia
-        sub_title: Master of Data Science
-        caption: 2019.09 - 2020.08
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
         quote: >
-          Field of study: Computational Linguistics
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of qualification
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I enjoy dancing when I am not doing research :)
-      Images ![alt text](/images/IMG_8480.jpg)
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
