@@ -10,7 +10,7 @@ version: 2
 name: Yiyuan Pu (Gracie)
 title: PhD candidate (Graduating in Jan, 2025)
 email: yiyuanpu.unimelb@gmail.com
-wechat: 15618068621
+# wechat: 15618068621
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -30,7 +30,7 @@ darkmode: false
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
 orcid_username: 0000-0002-0814-8312
-googlescholar_username: Yiyuan Pu
+# googlescholar_username: Yiyuan Pu
 
 # Additional icon links
 # additional_links:
@@ -63,8 +63,8 @@ content:
   - title: Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak
+      - layout: top-middle
+        # border: weak
         title: BioNLP 2024 and Shared Tasks @ ACL 2024
         link: tbd
         # link_text: Project Website
@@ -79,8 +79,9 @@ content:
           Intervention extraction in preclinical animal studies of Alzheimer’s Disease 
         description: | # this will include new lines to allow paragraphs
           We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+
+      - layout: top-middle
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Journal of Biomedical Informatics  
         link: [Paper link](https://www.sciencedirect.com/science/article/pii/S1532046423001855)
@@ -97,8 +98,9 @@ content:
           Graph embedding-based link prediction for literature-based discovery in Alzheimer’s Disease 
         description: | # this will include new lines to allow paragraphs
           We explore the framing of literature-based discovery (LBD) as link prediction and graph embedding learning, with Alzheimer’s Disease (AD) as our focus disease context. The key link prediction setting of prediction window length is specifically examined in the context of a time-sliced evaluation methodology. We propose a four-stage approach to explore literature-based discovery for Alzheimer’s Disease, creating and analyzing a knowledge graph tailored to the AD context, and predicting and evaluating new knowledge based on time-sliced link prediction. Neural network graph-embedding link prediction methods show promise for the literature-based discovery context, although the prediction setting is extremely challenging, with graph densities of less than 1%. Varying prediction window length on the time-sliced evaluation methodology leads to hugely different results and interpretations of LBD studies. 
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      
+      - layout: top-middle
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Journal of Biomedical Semantics (preprint)
         link: tbd
