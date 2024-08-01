@@ -55,14 +55,14 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am looking for <mark>full-time opportunities</mark> and open to relocation.
 
-  Interested areas include but not limited to: <mark>Natural language processing, large language models, and NLP applications</mark>.
+  Interested areas include but not limited to: <mark>Natural language processing</mark>, <mark>large language models</mark>, and <mark>NLP applications</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: BioNLP 2024 and Shared Tasks @ ACL 2024
+        title: Intervention extraction in preclinical animal studies of Alzheimer’s Disease
         link: tbd
         # link_text: Project Website
         # additional_links:
@@ -73,9 +73,25 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Intervention extraction in preclinical animal studies of Alzheimer’s Disease 
+          BioNLP 2024 and Shared Tasks @ ACL 2024 
         description: | # this will include new lines to allow paragraphs
           We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
+      - layout: top-middle
+        title: Intervention extraction in preclinical animal studies of Alzheimer’s Disease
+        link: tbd
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          BioNLP 2024 and Shared Tasks @ ACL 2024 
+        description: | # this will include new lines to allow paragraphs
+          We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
