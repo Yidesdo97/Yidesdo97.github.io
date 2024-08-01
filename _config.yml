@@ -78,15 +78,15 @@ content:
           We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
       - layout: top-middle
         title: Graph embedding-based link prediction for literature-based discovery in Alzheimer’s Disease
-        link: https://www.sciencedirect.com/science/article/pii/S1532046423001855
+        # link: https://www.sciencedirect.com/science/article/pii/S1532046423001855
         # link_text: Project Website
         additional_links:
           - title: READ-BioMed/readbiomed-lbd
             icon: fab fa-github
             url: https://github.com/READ-BioMed/readbiomed-lbd
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          - title: Link for paper
+            icon: fas fa-link
+            url: https://www.sciencedirect.com/science/article/pii/S1532046423001855
         quote: >
           Journal of Biomedical Informatics  
         description: | # this will include new lines to allow paragraphs
