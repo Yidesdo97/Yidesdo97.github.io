@@ -131,9 +131,7 @@ content:
         # quote: >
           # University of Melbourne
         description: | # this will include new lines to allow paragraphs
-          Doctor of Philosophy 
-          Field of study: Natural Language Processing
-
+          Doctor of Philosophy in Natural Language Processing
       - layout: left
         # title: The University of British Columbia
         caption: 2019.09 - 2020.08
@@ -141,14 +139,13 @@ content:
         # quote: >
         #   Field of study: Computational Linguistics
         description: |
-          Master of Data Science 
-          Field of study: Computational Linguistics
-
+          Master of Data Science in Computational Linguistics
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       I enjoy dancing when I am not doing research :)
+      ![Trees](/images/dancing_01.jpg "Learning a new classical dance.")
 
 # Images ![alt text](/images/dancing_01.jpg)
       
