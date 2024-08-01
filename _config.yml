@@ -145,7 +145,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       I enjoy dancing when I am not doing research :)
-      ![Trees](/images/dancing_01.jpg "Learning a new classical dance.")
+      ![Trees](/images/dancing_01.jpg =100x20 "Learning a new classical dance.")
 
 # Images ![alt text](/images/dancing_01.jpg)
       
