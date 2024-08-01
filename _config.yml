@@ -127,19 +127,22 @@ content:
       - layout: left
         # title: University of Melbourne
         caption: 2021.06 - present 
-        sub_title: Doctor of Philosophy
-        quote: >
-          University of Melbourne
+        sub_title: University of Melbourne
+        # quote: >
+          # University of Melbourne
         description: | # this will include new lines to allow paragraphs
+          Doctor of Philosophy 
           Field of study: Natural Language Processing
 
       - layout: left
-        title: The University of British Columbia
+        # title: The University of British Columbia
         caption: 2019.09 - 2020.08
-        sub_title: Master of Data Science
-        quote: >
+        sub_title: The University of British Columbia
+        # quote: >
+        #   Field of study: Computational Linguistics
+        description: |
+          Master of Data Science 
           Field of study: Computational Linguistics
-        # description: |
 
 
   - title: A Little More About Me
