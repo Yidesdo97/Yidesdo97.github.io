@@ -144,8 +144,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I enjoy dancing when I am not doing research :)
-      <img src="/images/dancing_01.jpg" alt="drawing" width="200" height="200"/>
+      I enjoy dancing and modeling when I am not doing research :)
+
+      <img src="/images/dancing_01.jpg" alt="Learning a new classical dance." width="200" height="400"/>
+      <img src="/images/dancing_02.jpg" alt="Learning a new classical dance." width="200" height="400"/>
 
 # ![Trees](/images/dancing_01.jpg =250x250 "Learning a new classical dance.")
 
