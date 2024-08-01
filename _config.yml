@@ -125,13 +125,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Melbourne
+        # title: University of Melbourne
         caption: 2021.06 - present 
         sub_title: Doctor of Philosophy
         quote: >
-          Field of study: Natural Language Processing
+          University of Melbourne
         description: | # this will include new lines to allow paragraphs
-          tbd 
+          Field of study: Natural Language Processing
 
       - layout: left
         title: The University of British Columbia
