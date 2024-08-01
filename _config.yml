@@ -131,7 +131,7 @@ content:
         quote: >
           Field of study: Natural Language Processing
         description: | # this will include new lines to allow paragraphs
-        ... tbd ...
+          tbd 
 
       - layout: left
         title: The University of British Columbia
@@ -139,8 +139,7 @@ content:
         sub_title: Master of Data Science
         quote: >
           Field of study: Computational Linguistics
-        description: |
-        ... tbd ...
+        # description: |
 
 
   - title: A Little More About Me
