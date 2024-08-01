@@ -33,7 +33,7 @@ orcid_username: 0000-0002-0814-8312
 # Additional icon links
 additional_links:
 - title: Google scholar
-  icon: fab fa-google-scholar
+  icon: fab fa-google
   url: https://scholar.google.com.au/citations?user=oGOAEz8AAAAJ&hl=en
 - title: LinkedIn
   icon: fab fa-linkedin
