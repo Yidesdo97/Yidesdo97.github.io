@@ -124,34 +124,31 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: University of Melbourne
         caption: 2021.06 - present 
         sub_title: Doctor of Philosophy
         quote: >
           Field of study: Natural Language Processing
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        description: | # this will include new lines to allow paragraphs
+        ... tbd ...
 
-          # I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-      - layout: top-middle
+      - layout: left
         title: The University of British Columbia
         caption: 2019.09 - 2020.08
         sub_title: Master of Data Science
         quote: >
           Field of study: Computational Linguistics
+        description: |
+        ... tbd ...
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      I enjoy dancing when I am not doing research :)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/dancing_01.jpg "Learning a new classical dance.")
 
 # Footer
 footer_show_references: true
