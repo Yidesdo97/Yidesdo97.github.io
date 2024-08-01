@@ -77,21 +77,35 @@ content:
         description: | # this will include new lines to allow paragraphs
           We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
       - layout: top-middle
-        title: Intervention extraction in preclinical animal studies of Alzheimer’s Disease
-        link: tbd
+        title: Graph embedding-based link prediction for literature-based discovery in Alzheimer’s Disease
+        link: [Paper link](https://www.sciencedirect.com/science/article/pii/S1532046423001855)
         # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        additional_links:
+          - title: READ-BioMed/readbiomed-lbd
+            icon: fab fa-github
+            url: https://github.com/READ-BioMed/readbiomed-lbd
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          BioNLP 2024 and Shared Tasks @ ACL 2024 
+          Journal of Biomedical Informatics  
         description: | # this will include new lines to allow paragraphs
-          We explore different information extraction tools for annotation of interventions to support automated systematic reviews of preclinical AD animal studies. We compare two PICO (Population, Intervention, Comparison, and Outcome) extraction tools and two prompting-based learning strategies based on Large Language Models (LLMs). Motivated by the high recall of a dictionary-based approach, we define a two-stage method, removing false positives obtained from regexes with a pre-trained LM. With ChatGPT-based filtering using three-shot prompting, our approach reduces almost two-thirds of False Positives compared to the dictionary approach alone, while outperforming knowledge-free instructional prompting.
-
+          We explore the framing of literature-based discovery (LBD) as link prediction and graph embedding learning, with Alzheimer’s Disease (AD) as our focus disease context. The key link prediction setting of prediction window length is specifically examined in the context of a time-sliced evaluation methodology. We propose a four-stage approach to explore literature-based discovery for Alzheimer’s Disease, creating and analyzing a knowledge graph tailored to the AD context, and predicting and evaluating new knowledge based on time-sliced link prediction. Neural network graph-embedding link prediction methods show promise for the literature-based discovery context, although the prediction setting is extremely challenging, with graph densities of less than 1%. Varying prediction window length on the time-sliced evaluation methodology leads to hugely different results and interpretations of LBD studies. 
+      - layout: top-middle
+        title: "Enriched knowledge representation in biological fields: A case study of Literature-based Discovery in Alzheimer’s Disease"
+        link: tbd
+        # link_text: Project Website
+        # additional_links:
+        #   - title: READ-BioMed/readbiomed-lbd
+        #     icon: fab fa-github
+        #     url: https://github.com/READ-BioMed/readbiomed-lbd
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Journal of Biomedical Semantics (preprint)
+        description: | # this will include new lines to allow paragraphs
+          We argue that the standard entity-based knowledge graph has important limitations for biological knowledge representation. We demonstrate the negative impacts of relying solely on pairwise relationships as representation strategies by using Literature-Based Discovery (LBD) as a case study. However, pairwise relationships adopted in a standard knowledge graph are essential in knowledge representation for LBD. These limitations can be mitigated by integrating more semantically complex knowledge representation strategies, including capturing collective interactions and allowing for nested entities. The use of more sophisticated knowledge representation will benefit biological fields with more expressive knowledge graphs. A downstream task of knowledge graph, such as LBD, can be benefitted as well, allowing for generation of implicit knowledge discoveries and explanations for disease diagnosis, treatment, and mechanism that are more biologically meaningful.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
