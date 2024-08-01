@@ -145,14 +145,14 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       I enjoy dancing when I am not doing research :)
-      ![Trees](/images/dancing_01.jpg =100x20 "Learning a new classical dance.")
+      ![Trees](/images/dancing_01.jpg =250x250 "Learning a new classical dance.")
 
 # Images ![alt text](/images/dancing_01.jpg)
       
 # ![Trees](/images/dancing_01.jpg "Learning a new classical dance.")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
