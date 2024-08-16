@@ -71,7 +71,7 @@ content:
         #     url: https://github.com/READ-BioMed/readbiomed-lbd
           - title: Link for paper
             icon: fas fa-link
-            url: tbd
+            url: https://aclanthology.org/2024.bionlp-1.39.pdf
         quote: >
           BioNLP 2024 and Shared Tasks @ ACL 2024 
         description: | # this will include new lines to allow paragraphs
