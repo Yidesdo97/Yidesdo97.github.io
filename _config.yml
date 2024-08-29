@@ -96,12 +96,12 @@ content:
         # link: tbd
         # link_text: Project Website
         additional_links:
-        #   - title: READ-BioMed/readbiomed-lbd
-        #     icon: fab fa-github
-        #     url: https://github.com/READ-BioMed/readbiomed-lbd
+          - title: READ-BioMed/readbiomed-semantics
+            icon: fab fa-github
+            url: https://github.com/READ-BioMed/readbiomed-semantics
           - title: Link for paper
             icon: fas fa-link
-            url: tbd
+            url: https://www.researchsquare.com/article/rs-4831558/v1
         quote: >
           Journal of Biomedical Semantics (preprint)
         description: | # this will include new lines to allow paragraphs
